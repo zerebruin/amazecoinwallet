@@ -8,7 +8,7 @@ execute_process(COMMAND git log -1 --pretty=format:%h
 WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 OUTPUT_VARIABLE GIT_REVISION)
 
-set(amazecoin cryptonote)
+set(../amazecoin cryptonote)
 
 include_directories(${CMAKE_BINARY_DIR}
     src
